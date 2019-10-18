@@ -1,0 +1,58 @@
+.all .first_prgh {
+    font-size: 20px;
+    color: cornflowerblue;
+    font-family: Arial;
+}
+
+.all .second_prgh {
+    font-size: 25px;
+    color: darkslateblue;
+    font-family: fantasy;
+}
+
+.all .third_prgh {
+    font-size: 18px;
+    color: darkred;
+    font-family: 'Times New Roman';
+}
+
+.all .first_prgh .h3 .prgrh1{
+    color: blue;
+}
+
+.all .first_prgh .prgrh1{
+    color: brown;
+}
+
+.all .second_prgh .prgrh2{
+    color: rgb(14, 77, 30);
+}
+
+.all .third_prgh .prgrh3{
+    color:dimgrey;
+}
+
+.box-table {
+    margin-left: 45%;
+}
+
+li {
+    list-style-type: decimal;
+}
+
+.box-table ul li:nth-child(1) ul li {
+    list-style-type: disc;
+}
+
+.box-table ul li:nth-child(2) ul li {
+    list-style-type: none;
+}
+
+.box-table ul li:nth-child(2) ul li:before {
+    content: "§ "; /*добавляем в качестве маркера любой символ*/
+} 
+
+.box-table ul li:nth-child(3) ul li {
+    list-style-type: circle;
+}
+

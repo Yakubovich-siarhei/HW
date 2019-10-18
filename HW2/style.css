@@ -1,0 +1,20 @@
+body .eee {
+    margin: 2 auto;
+    border: 10 px solid yellowgreen;
+}
+
+p {
+    color: green;
+}
+
+.container .class1{
+    color: red;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif; 
+}

@@ -1,0 +1,32 @@
+
+.white{
+    width:1000px;
+    height:1000px;
+    background-color:#ccc;
+    
+}
+.red{
+    width:500px;
+    height:500px;
+    background-color:darkred;
+    position: relative;
+    float:inline-start;
+}
+
+.blue{
+    width:500px;
+    height:500px;
+    background-color:blue;
+    position: relative;
+    float:right;
+}
+
+.green{
+    width:500px;
+    height:500px;
+    background-color:green;
+    position:absolute;
+    top:250px;
+    left:250px;
+}
+

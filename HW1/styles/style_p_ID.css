@@ -1,0 +1,11 @@
+#P1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px 2px slategrey, 0 0 1em cornsilk;
+    text-transform: uppercase;
+}
+
+#P2 {
+    text-decoration: overline;
+}

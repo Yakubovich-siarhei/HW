@@ -1,0 +1,44 @@
+html,body{
+    height:100%;
+    margin:0px;
+    padding:0px;
+}
+
+.qwe {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.qwe .flex-container:nth-child(1) .flex-item {
+    background: darkblue;
+}
+
+.qwe .flex-container:nth-child(2) .flex-item {
+    background: darkgreen;    
+}
+
+.qwe .flex-container:nth-child(3) .flex-item {
+    background: darkslateblue;    
+}
+
+.qwe .flex-container:nth-child(4) .flex-item {
+    background: darkorange;
+}
+
+.flex-container {
+    display: flex;
+    width: 99%;
+    height: 22%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.flex-item {    
+    width: 100%;
+    height: 100%;
+	padding: 5px;
+    text-align: center;	
+    margin: 5px;
+}
+
