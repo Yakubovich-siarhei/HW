@@ -190,7 +190,7 @@ header ul li:first-child {
 	float: left;
 	clear: both;
 	padding-top: 150px;
-	padding-left: 125px;
+	padding-left: 10%;
 	max-height: 412px;
 	overflow: hidden;
 	width: 40%;
@@ -271,7 +271,8 @@ header ul li:first-child {
 	padding-left: 1%;
 	border-radius: 5px;
 	border: none;
-	background: url(./img/email.png) no-repeat scroll;
+	background: url(./img/email.png) 100% 100% no-repeat scroll;
+	background-size: cover;
 }
 
 .container6 {
@@ -321,7 +322,7 @@ header ul li:first-child {
 	display: inline;
 }
 
-.two_buttons a{
+.container6 .two_buttons a{
 	text-decoration: none;
 	padding: 25px 80px 20px 25px;
 	background-color: #1abc9c;
@@ -452,8 +453,16 @@ header ul li:first-child {
 		padding-top: 60px;
 	}
 
+	.container4 ul li:not(:nth-child(1)) img {
+		width: 100%;
+	}
+
 	.container5 {
 		display: block;
+	}
+
+	.container6 {
+		height: 100%;
 	}
 
 	.container6 .two_buttons div {
@@ -469,6 +478,19 @@ header ul li:first-child {
 
 	.container4 ul {
 		display: block;
+	}
+
+	.container5 input {
+		width: 80%;
+	}
+
+	.container6 .two_buttons a {		
+		padding: 25px 28px 19px 18px;
+		margin: 0;
+	}
+
+	.container6 .two_buttons a svg {
+		left: 30px;
 	}
 
 }
